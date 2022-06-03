@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <%- include("partials/head"); %>
+    <body>
+    <%- include("partials/navbar") %>
+    <div class="container mt-3">
+        <h1 class="tex-center">Manajemen Buku</h1>
+     
+        <button class="btn btn-sm btn-primary my-2">
+            Tambah Buku
+        </button>
+        <!-- input form -->
+        <div id="form" class="card py-2 my-3 bg-secondary">
+            <div class="card-body">
+                <h4>Form Buku</h4>
+                <form action="" class="row">
+                    <div class="col-6">
+                        <input 
+                        type="text" 
+                        name="judul"
+                        class="form-control mx-2"
+                        placeholder="Judul"
+                        >
+                    </div>
+                    <div class="col-4">
+                        <input 
+                        type="text" 
+                        name="pengarang" 
+                        class="form-control mx-2"
+                        placeholder="Pengarang"
+                        >
+                    </div>
+                    <div class="col-2">
+                        <input type="submit" class="btn btn-success" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
